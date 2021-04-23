@@ -1,0 +1,17 @@
+@media screen and (min-width: 680px) {
+  .product-container {
+    width: 90%;
+    grid-template-columns: 40% 60%;
+    grid-template-areas:
+      'offer prices'
+      'characteristics characteristics';
+  }
+
+  .item-prices {
+    max-width: 400px;
+  }
+
+  .offer__container {
+    max-width: 400px;
+  }
+}

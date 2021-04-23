@@ -1,0 +1,11 @@
+.product-container {
+  margin: 20px auto;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-areas:
+    'offer'
+    'prices'
+    'characteristics';
+  gap: 20px;
+}

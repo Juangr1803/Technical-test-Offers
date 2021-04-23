@@ -4,6 +4,7 @@ import React from 'react';
 import Home from '../pages/Home';
 // Styles
 import '../styles/global.css';
+import '../styles/media/tablet.css';
 
 const App = () => <Home />;
 

@@ -1,16 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 // Components
-import Offer from '../components/Offer';
-import Prices from '../components/Prices';
-import Characteristics from '../components/Characteristics';
+import Products from '../container/Products';
+
+// Hooks
+import useOffer from '../hooks/useOffer.hook';
 
 const Home = () => {
+  const { getAllOffers, productsOffer } = useOffer();
+
+  useEffect(() => {
+    getAllOffers();
+  }, [productsOffer]);
+
   return (
     <>
-      <Offer />
-      <Prices />
-      <Characteristics />
+      {productsOffer.map((product) => (
+        <Products key={product.id} {...product} />
+      ))}
     </>
   );
 };

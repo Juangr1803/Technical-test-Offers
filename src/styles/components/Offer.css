@@ -1,0 +1,29 @@
+.offer {
+  width: 100%;
+  grid-area: offer;
+}
+
+.offer__container {
+  margin: 10px auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  height: auto;
+  min-height: 50px;
+  background-color: #38b6ff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.offer-container__name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.2rem;
+}
+.offer-container__identificator {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+}

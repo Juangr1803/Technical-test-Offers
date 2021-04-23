@@ -1,0 +1,22 @@
+.prices-container {
+  grid-area: prices;
+}
+.item-prices {
+  margin: 10px auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+  min-height: 50px;
+  background-color: #224c74;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.item-prices__price {
+  color: #38b6ff;
+}
